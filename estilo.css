@@ -41,6 +41,10 @@
       margin:  0px;
       } 
 
+    .col{
+      margin: auto;
+      }  
+
     header ul li a:hover {
       color: rgb(92, 98, 123);
       text-decoration: none;  
@@ -154,12 +158,12 @@
       }
 
     #badlogo{
-      width: 90px;
-      height: 50px;
+      width: 170px;
+      height: 77px;
       }
       
     #badlogo:hover{
-      transform: scale(1.05);
+      transform: scale(1.03);
       }  
   
     p{
@@ -424,6 +428,7 @@
     .resto-2{
       padding:20px;
       }
+
     .formulario{
       display: inline-grid;
       width: auto;

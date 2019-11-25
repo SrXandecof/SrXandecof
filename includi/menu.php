@@ -6,7 +6,8 @@
     <body>
         <header class="container-fluid">
           <div class="row">
-            <div class="col"></div>
+            <div class="col">
+            </div>
             <div class="col">
                 <a href="index.php"> 
                     <img id="badlogo" src="./Personagem/badlogo.png">
@@ -17,7 +18,7 @@
                 <ul class="def russo">
                     <li><a href="index.php">Inicial</a></li>
                     <li><a href="Personagens.php">Personagens</a></li>
-                    <li><a href="#">sugetão</a></li>
+                    <li><a href="sugestao.php">sugestão</a></li>
                     <li><a href="nos.php">Sobre</a></li>
                 </ul>
               </nav>
