@@ -1,0 +1,18 @@
+DECOTECH v1.0; October 1, 2001
+Windows TrueType font, free for personal use
+Homepage: http://go.to/disneyfonts
+
+Please include this decotech.txt file with any redistribution.
+
+INSTALLATION: To install any TrueType font, simply copy it to your Windows/Fonts folder.
+
+
+DECOTECH is a new rendition of a Walt Disney World Tomorrowland-style font. Seizing inspiration from designs by Daniel Pelavin and Neville Brody -- whose distinctive typefaces help define the retro-futuristic style of New Tomorrowland -- DecoTech features capitals from Metropolis Science Centre and Space Mountain, as well as an original lowercase set. 
+
+DECOTECH TL offers some extra capitals: the uppercase contain the common "Tomorrowland" character set, while the lowercase contain some additional designs based on signage from Port Discovery at Tokyo Disney Sea. These can be used alone or mixed with DecoTech upper/lowercase for more design possibilites.
+
+
+Big thanks go to Joshua Harris for the idea, input, and webpage banner design.
+
+
+Comments, questions, complaints, love notes - please send them to jcmagic@yahoo.com.

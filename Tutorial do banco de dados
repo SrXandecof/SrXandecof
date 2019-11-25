@@ -1,0 +1,28 @@
+CREATE DATABASE bancodeteste;
+
+CREATE TABLE  feedback (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+    email VARCHAR( 150 ) NOT NULL ,
+    mensagem VARCHAR( 150 ) NOT NULL
+ );
+
+
+ <------Baixar arquivos em qualquer máquina------>
+
+git clone [url_do_seu_git_hub_do_seu_diretorio]
+
+
+<------Comandos git para enviar para o repositório------>
+
+git add . (vai adicionar tudo que foi modificado)
+
+git commit -m "msg" (você vai mandar uma msg do que está enviando ao seu repositório - é obrigatório)
+
+git push origin master (agora vc vai enviar seus arquivos para o git)
+
+/* Vai pedir seu user e senha */
+
+
+<------Comando para atualizar uma máquina diferente da que vc fez o 'push'------>
+
+git pull

@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Yatra+One&display=swap');
+
+    body{
+      background: #756556;
+      color: white;
+      font-size: 20px;
+      font-family: 'Yatra One', cursive;
+      }
+
+    .russo{
+      font-family: 'Russo One', sans-serif;
+      }
+
+
+    header{
+      position: fixed;
+      left: 0;
+      width: 100%;
+      top: 0px;
+      text-align: center;
+      background: #8b0000;
+      }
+
+    header li{
+      display: inline-block;
+      margin: 0 10px;
+      }
+
+    header a{
+      text-decoration: none;
+      color: white;
+      }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }        
+
+    .def{
+      margin:  0px;
+      } 
+
+    header ul li a:hover {
+      color: rgb(92, 98, 123);
+      text-decoration: none;  
+      }  
+
+    #imagem{
+      width:80%; 
+      height:80%;
+      }
+
+    #personagens{
+      width: 100%;
+      height: 57%;
+      margin-top: 20px;
+      justify-content: center; 
+      margin-bottom: 50px; 
+      }
+
+    .cartoes{
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20%;
+      grid-template-rows: 300px;
+      grid-gap: 20px; 
+      justify-content: center;     
+      }
+
+    .cartao-container{
+      position: relative;
+      height: 100%;
+      transition: transform 0.4s;
+      transform-style: preserve-3d;
+      }
+    
+    .cartao:hover .cartao-container{
+      transform: rotateY(180deg);
+      }
+    
+    .cartao-front, .cartao-back {
+      position: absolute;
+      width: 100%;
+      height: 110%;
+      backface-visibility: hidden;
+      z-index: 1;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgb(0,0,0);
+      }
+   
+    
+    .cartao-back{
+      transform: rotateY(180deg);
+      background: #fff;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: 500;
+      color:white;
+      background-color:#423931;
+      text-align: justify;
+      overflow: hidden;
+      }
+
+    .card{
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      }
+
+    #texto{
+      background-color:#423931;
+      box-shadow: 6px 6px 4px black;
+      padding: 35px;
+      width: 84%;
+      }
+
+    #lugar{
+      position: relative;
+      bottom: 130px;
+      margin-bottom: -130px;
+      }
+
+    .texto-2{
+      color: white;
+      padding: 35px;
+      
+      }  
+
+    .vilao{
+      background-color: black ;
+      background-color: #423931;
+      box-shadow: 6px 6px 4px black;
+      padding: 35px;
+      width: 84%;
+
+      top: 2%;
+      color:white;
+      }
+
+    .vilao-2{
+      width: 200px;
+      height: 150px;
+      }  
+
+    .vilao-3{
+      width: 280px;
+      height: 180px;
+      }
+
+    #logo{
+      width:100px; 
+      height:100px;
+      }
+
+    #badlogo{
+      width: 90px;
+      height: 50px;
+      }
+      
+    #badlogo:hover{
+      transform: scale(1.05);
+      }  
+  
+    p{
+      text-align: justify;
+      text-indent: 50px;
+      }
+    
+    .noss{
+      text-indent: 10px;
+
+      }
+
+    .divisao{
+      background-color: #e7e4e133;
+      opacity: 0.8;
+      height: 2px;   
+      position: relative;
+      top:500px; 
+      }  
+
+    .vilao-feliz{
+      width: 100%;
+      left: 1%;
+      height: auto;
+      margin-top: 20px;
+      justify-content: center;
+      border-radius: 34px;
+      }
+
+    .novo{
+      background-color: blue;
+      width: 500px;
+      height: 500px;
+      border-radius: 5px;
+      }
+
+    .footer{
+      background: #303036;
+      color: #d3d3d3;
+      height: 400px;
+      margin-top: 20px;
+      }
+
+    .footer .footer-bottom{
+      background: #343a40;
+      color: #686868;
+      height: 50px;
+      width: 100%;
+      text-align: center;
+      bottom: 0px;
+      left: 0px;
+      padding-top: 20px; 
+      } 
+
+    .footer .footer-content{
+      height: 350px;
+      display: flex;
+      }
+
+    .footer .footer-content .footer-section{
+      flex: 1;
+      padding: 25px;
+      }
+
+    .footer .footer-content h1, .footer .footer-content h2{
+      color: white;
+      }  
+
+    .footer .footer-content .about h1 span{
+      color: #05f7ff;
+      }
+
+    .footer .footer-content .about .contact span {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 8px;
+      }
+
+    .footer .footer-content .about .socials a{
+      border: 1px solid gray;
+      width: 45px;
+      height: 41px;
+      padding-top: 5px;
+      margin-right: 5px;
+      text-align: center;
+      display: inline-block;
+      font-size: 1.3em;
+      border-radius: 5px;
+      transition: all .3s;
+      }
+
+    .footer .footer-content .about .socials a:hover{
+      border: 1px solid white;
+      color: white;
+      transition: all .3s;
+
+      }
+
+    .footer .footer-content .links ul a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      list-style:none;
+      }
+
+    .footer .footer-content .links ul a:hover {
+      color: white;
+      margin-left: 15px;
+      transition: all .3s;
+      text-decoration: none;
+      }
+
+    .footer .footer-content .contact-form .contact-input {
+      background: #272727;
+      color: #bebdbd;
+      margin-bottom: 10px;
+      line-height: 1.5rem;
+      padding: .9rem 1.4rem;
+      border: none;
+      }
+
+    .footer .footer-content .contact-form .contact-input:focus{
+      background: #1a1a1a;
+      }
+
+    .footer .footer-content .contact-form .contact-btn{
+      float: right;
+      }
+
+    .btn-big{
+      padding: .7rem 1.3rem;
+      line-height: 1.3rem;
+      }
+
+    .btn{
+      padding: .5rem 1rem;
+      background: #006669;
+      color: white;
+      border-radius: .25rem;
+      border: 1px solid transparent;
+      }
+
+    .btn:hover{
+      color: white !important;
+      background: #005255;
+      }
+
+    .x1{
+      width: 55px;
+      }
+
+    #x2{
+      width: 115px;
+      }  
+
+    #quadrado{
+      background-color: grey;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      }
+
+    .galeria img:hover {
+      transform: scale(1.1);
+      }
+
+    .galeria{
+      text-align: center;
+      }
+
+    .imagem-personagem{
+      height:300px; 
+      width:300px;
+      }  
+
+    .tudo{
+      height: 80%;
+      position: relative;
+      left: 10%;
+      box-shadow: 6px 6px 4px black;
+      margin-top: 20px;
+      background-color:#423931;
+      padding: 10px;
+      width: 84%;
+      }  
+
+    .texto-sobre{
+      background-color: #468A9B;
+      width: 480px;
+      text-align: justify;
+      height: 340px;
+      position: relative;
+      border-radius: 22px;
+      margin:10px;
+      }
+
+    .tudo-sobre{
+      background-color: #21404A;
+      width: 500px;
+      height: 630px;
+      box-shadow: 1px 1px 4px black;
+      border-radius:22px;
+      margin-top: 10px;
+      }
+    
+    .galeria-sobre{
+      text-align: center;
+      transition:background 0.5s ease-out;
+      }
+
+    .imagem-sobre{
+      height:250px; 
+      width:250px; 
+      margin:10px;  
+      border-radius: 200px 200px 200px 200px;
+      }
+
+    .imagem-sobre:hover{
+      transform: scale(1.1);
+      } 
+
+    #borda1{
+      color: #8b0000;
+      }
+
+    #borda2{
+      color: #6487a3;
+      }          
+
+    #sobre{
+      width: 100%;
+      height: 57%;
+      margin-top: 20px;
+      justify-content: center;
+      margin-bottom: 50px;  
+      }
+
+    .cartoes-sobre{
+      display: grid;
+      grid-template-columns: 23% 23% 23% 23%;
+      grid-template-rows: 400px;
+      grid-gap: 20px; 
+      justify-content: center;     
+      }
+
+    .card-sobre{
+      border-radius:5px 5px 0px 0px;
+      width: 100%;
+      height: 80%;
+      }
+
+    .resto{
+      background-color: black; 
+      color: white;
+      width: 100%;
+      height: 20%;
+      border-radius: 0px 0px 5px 5px;
+      text-align: center;
+      } 
+
+    .resto-2{
+      padding:20px;
+      }
+    .formulario{
+      display: inline-grid;
+      width: auto;
+      justify-content: right;
+      }
+
+    .formulario button{
+      float: right;
+      }
+
+    .formulario textarea{
+      max-height: 136px;
+      }
+
+    .direita{
+      margin: 0px 0px 0px 66.5%;
+      }
+
+    .tamanho{
+      width: 100%;
+      }
