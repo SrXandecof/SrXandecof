@@ -16,10 +16,10 @@
             <div class="col">
               <nav>
                 <ul class="def russo">
-                    <li><a href="index.php">Inicial</a></li>
+                    <li><a href="index.php">Início</a></li>
                     <li><a href="Personagens.php">Personagens</a></li>
-                    <li><a href="sugestao.php">sugestão</a></li>
                     <li><a href="nos.php">Sobre</a></li>
+                    <li><a href="sugestao.php">sugestões</a></li>
                 </ul>
               </nav>
             </div>  

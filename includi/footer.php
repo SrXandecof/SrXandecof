@@ -3,7 +3,8 @@
     if(!empty($_POST)){    
         $email = $_POST['email'];
         $msg = $_POST['mensagem'];
-        $msg_contato = "INSERT INTO feedback(id, email, mensagem) VALUES ('','$email','$msg')";
+        $nome = $_POST['nome'];
+        $msg_contato = "INSERT INTO feedback(id, nome, email, mensagem) VALUES ('', '$nome','$email','$msg')";
         $resultado_msg_contato = mysqli_query($conn, $msg_contato);
     }
 ?>
@@ -31,17 +32,19 @@
             <h2 class="russo">Links rápidos</h2>
             <br>
             <ul class="russo">
-                <a class="x1" href="index.php"><li>Inicial</li></a>
-                <a id="x2" href="Personagens.php"><li>Personagem</li></a>
+                <a class="x1" href="index.php"><li>Início</li></a>
+                <a id="x2" href="Personagens.php"><li>Personagens</li></a>
                 <a class="x1" href="nos.php"><li>Sobre</li></a>
+                <a class="x1" href="sugestao.php"><li>Sugestões</li></a>
             </ul>
             </div>
             <div class="footer-section contact-form" style="overflow: hidden;">
             <h2 class="russo">Contatos</h2>
             <br>
             <?php echo '<form action="'.$pegaLink.'" method="POST">' ?>
-                <input type="email" name="email" class="text-input contact-input tamanho" placeholder="Seu Email">
-                <textarea name="mensagem" class="text-input contact-input tamanho" placeholder="Sua Mensagem"></textarea>
+                <input type="text" name="nome" class="text-input contact-input tamanho" placeholder="Seu Nome" required>
+                <input type="email" name="email" class="text-input contact-input tamanho" placeholder="Seu Email" required>
+                <textarea name="mensagem" class="text-input contact-input tamanho" placeholder="Sua Mensagem" required></textarea>
                 <button type="submit" class="btn col-4 direita">
                 <i class="fas fa-envelope"></i>
                 </button>

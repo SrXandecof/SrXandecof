@@ -283,6 +283,9 @@
       line-height: 1.5rem;
       padding: .9rem 1.4rem;
       border: none;
+      max-height: 60px;
+      min-height: 50px;
+      overflow: hidden;
       }
 
     .footer .footer-content .contact-form .contact-input:focus{
@@ -450,3 +453,30 @@
     .tamanho{
       width: 100%;
       }
+
+    .pedaco{
+      background-color:#423931;
+      width: 90%;
+      padding: 10px;
+      margin: 10px;
+      text-align: justify;
+      } 
+
+    .email{
+      margin: 5px; 
+      }   
+
+    .id{
+      margin: 5px;
+      text-align: right;
+      color: grey;
+      }  
+
+    .comentario{
+      width: 100%;
+      padding: 5px;
+      }  
+
+    hr{
+      background-color: grey; 
+      }  
